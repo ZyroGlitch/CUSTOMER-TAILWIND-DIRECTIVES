@@ -1,0 +1,283 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded px-[12px] py-[6px] font-bold text-white;
+  }
+
+  .btn-light {
+    @apply bg-gray-100 text-gray-800; /* Bootstrap light button is off-white */
+  }
+
+  .btn-dark {
+    @apply bg-gray-900 text-white; /* Bootstrap dark button is nearly black */
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white; /* Bootstrap primary is a vibrant blue */
+  }
+
+  .btn-success {
+    @apply bg-green-600 text-white; /* Bootstrap success is a bright green */
+  }
+
+  .btn-danger {
+    @apply bg-red-600 text-white; /* Bootstrap danger is a vibrant red */
+  }
+
+  .btn-warning {
+    @apply bg-yellow-500 text-black; /* Bootstrap warning is a bright yellow */
+  }
+
+  .btn-info {
+    @apply bg-cyan-500 text-white; /* Bootstrap info is a vibrant cyan */
+  }
+}
+
+@layer utilities {
+  /* General Padding */
+  .p-1 {
+    @apply p-[.25rem];
+  }
+  .p-2 {
+    @apply p-[.5rem];
+  }
+  .p-3 {
+    @apply p-[1rem];
+  }
+  .p-4 {
+    @apply p-[1.5rem];
+  }
+  .p-5 {
+    @apply p-[3rem];
+  }
+
+  /* Padding - Top */
+  .pt-1 {
+    @apply pt-[.25rem];
+  }
+  .pt-2 {
+    @apply pt-[.5rem];
+  }
+  .pt-3 {
+    @apply pt-[1rem];
+  }
+  .pt-4 {
+    @apply pt-[1.5rem];
+  }
+  .pt-5 {
+    @apply pt-[3rem];
+  }
+
+  /* Padding - Bottom */
+  .pb-1 {
+    @apply pb-[.25rem];
+  }
+  .pb-2 {
+    @apply pb-[.5rem];
+  }
+  .pb-3 {
+    @apply pb-[1rem];
+  }
+  .pb-4 {
+    @apply pb-[1.5rem];
+  }
+  .pb-5 {
+    @apply pb-[3rem];
+  }
+
+  /* Padding - Start (Logical Left) */
+  .ps-1 {
+    @apply pl-[.25rem];
+  }
+  .ps-2 {
+    @apply pl-[.5rem];
+  }
+  .ps-3 {
+    @apply pl-[1rem];
+  }
+  .ps-4 {
+    @apply pl-[1.5rem];
+  }
+  .ps-5 {
+    @apply pl-[3rem];
+  }
+
+  /* Padding - End (Logical Right) */
+  .pe-1 {
+    @apply pr-[.25rem];
+  }
+  .pe-2 {
+    @apply pr-[.5rem];
+  }
+  .pe-3 {
+    @apply pr-[1rem];
+  }
+  .pe-4 {
+    @apply pr-[1.5rem];
+  }
+  .pe-5 {
+    @apply pr-[3rem];
+  }
+
+  /* Padding - Horizontal (X-Axis) */
+  .px-1 {
+    @apply px-[.25rem];
+  }
+  .px-2 {
+    @apply px-[.5rem];
+  }
+  .px-3 {
+    @apply px-[1rem];
+  }
+  .px-4 {
+    @apply px-[1.5rem];
+  }
+  .px-5 {
+    @apply px-[3rem];
+  }
+
+  /* Padding - Vertical (Y-Axis) */
+  .py-1 {
+    @apply py-[.25rem];
+  }
+  .py-2 {
+    @apply py-[.5rem];
+  }
+  .py-3 {
+    @apply py-[1rem];
+  }
+  .py-4 {
+    @apply py-[1.5rem];
+  }
+  .py-5 {
+    @apply py-[3rem];
+  }
+
+  /* General Margin */
+  .m-1 {
+    @apply m-[.25rem];
+  }
+  .m-2 {
+    @apply m-[.5rem];
+  }
+  .m-3 {
+    @apply m-[1rem];
+  }
+  .m-4 {
+    @apply m-[1.5rem];
+  }
+  .m-5 {
+    @apply m-[3rem];
+  }
+
+  /* Margin - Top */
+  .mt-1 {
+    @apply mt-[.25rem];
+  }
+  .mt-2 {
+    @apply mt-[.5rem];
+  }
+  .mt-3 {
+    @apply mt-[1rem];
+  }
+  .mt-4 {
+    @apply mt-[1.5rem];
+  }
+  .mt-5 {
+    @apply mt-[3rem];
+  }
+
+  /* Margin - Bottom */
+  .mb-1 {
+    @apply mb-[.25rem];
+  }
+  .mb-2 {
+    @apply mb-[.5rem];
+  }
+  .mb-3 {
+    @apply mb-[1rem];
+  }
+  .mb-4 {
+    @apply mb-[1.5rem];
+  }
+  .mb-5 {
+    @apply mb-[3rem];
+  }
+
+  /* Margin - Start (Logical Left) */
+  .ms-1 {
+    @apply ml-[.25rem];
+  }
+  .ms-2 {
+    @apply ml-[.5rem];
+  }
+  .ms-3 {
+    @apply ml-[1rem];
+  }
+  .ms-4 {
+    @apply ml-[1.5rem];
+  }
+  .ms-5 {
+    @apply ml-[3rem];
+  }
+
+  /* Margin - End (Logical Right) */
+  .me-1 {
+    @apply mr-[.25rem];
+  }
+  .me-2 {
+    @apply mr-[.5rem];
+  }
+  .me-3 {
+    @apply mr-[1rem];
+  }
+  .me-4 {
+    @apply mr-[1.5rem];
+  }
+  .me-5 {
+    @apply mr-[3rem];
+  }
+
+  /* Margin - Horizontal (X-Axis) */
+  .mx-1 {
+    @apply mx-[.25rem];
+  }
+  .mx-2 {
+    @apply mx-[.5rem];
+  }
+  .mx-3 {
+    @apply mx-[1rem];
+  }
+  .mx-4 {
+    @apply mx-[1.5rem];
+  }
+  .mx-5 {
+    @apply mx-[3rem];
+  }
+
+  /* Margin - Vertical (Y-Axis) */
+  .my-1 {
+    @apply my-[.25rem];
+  }
+  .my-2 {
+    @apply my-[.5rem];
+  }
+  .my-3 {
+    @apply my-[1rem];
+  }
+  .my-4 {
+    @apply my-[1.5rem];
+  }
+  .my-5 {
+    @apply my-[3rem];
+  }
+}
